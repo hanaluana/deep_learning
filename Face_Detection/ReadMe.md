@@ -32,7 +32,7 @@ Brew install cmake, brew install boost, brew install boost-python ---with-python
 
 ----------
 
-###cnn_face_detection###
+###cnn face detection###
  
 
 > https://arxiv.org/pdf/1502.00046.pdf
