@@ -12,7 +12,7 @@
 
 ----------
 
-###설치###
+### 설치 ###
 먼저 dlib 설치를 위해서는 많은 설치가 필요했다.
 
 Brew install cmake, brew install boost, brew install boost-python ---with-python3, brew install gtk+3 boost, brew install dlib, pip3 install dlib, pip3 install scikit-image
@@ -32,7 +32,7 @@ Brew install cmake, brew install boost, brew install boost-python ---with-python
 
 ----------
 
-###cnn face detection###
+### cnn face detection ###
  
 
 > https://arxiv.org/pdf/1502.00046.pdf
