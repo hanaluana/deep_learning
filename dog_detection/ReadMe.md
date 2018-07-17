@@ -12,6 +12,7 @@
 
 ### 2. **Annotation** 만들기
 LabelImg라는 툴을 사용하여 annotation을 만들어 주어 xml 파일로 저장하였다.
+
 ![enter image description here](http://i63.tinypic.com/34pmh34.png)
 
 ### 3. **TFR Dataset** 만들기
@@ -36,7 +37,9 @@ Tensorflow Api로 돌리려면 데이터셋이 TFGRecord 파일 포멧이어야 
 
 기존 cnn model을 가지고 학습을 시켜야 하므로, 어떤 모델을 쓸지 결정해야 한다. 가장 빠른 SSD모델을 많이 사용하기는 하지만, 나는 이번 경우에는 Faster RCNN resnet101을 가지고 학습시키기로 했다. 속도는 SSD에 비해서는 느리지만, 성능이 좀 더 좋다고 한다.
 config 파일 또한 기존에 예시로 나온 kitti의 config파일을 참고하여 만들어보았다. 
+
 ![enter image description here](http://i67.tinypic.com/2vuf2gx.png)
+
 google cloud에 돌리려고 하지만, 나는 아직 돈이 없어서 공짜 credit안에서 해결해야 하므로, step은 일단 2500정도로만 잡았다. data augmentation 옵션은 우선 horizontal flip으로만 추가해주었다.
 
 ### 5. **Bucket**만들고 추가해주기
