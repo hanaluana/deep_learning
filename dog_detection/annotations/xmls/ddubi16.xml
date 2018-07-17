@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>ddubi16.jpg</filename>
+	<path>/Users/haewonpark/Projects/handson/dog_detection/images/ddubi16.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ddubi</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>39</xmin>
+			<ymin>107</ymin>
+			<xmax>222</xmax>
+			<ymax>301</ymax>
+		</bndbox>
+	</object>
+</annotation>
