@@ -1,0 +1,24 @@
+# **Food Image Classification**
+
+음식 사진의 종류를 분류해주는 분류기를 만들어 보자
+
+앞서서 이야기했듯, 우리는 **Inception-Resnet** v2 모델로 **Transfer Learning**을 하기로 했다.
+
+
+----------
+
+
+Dataset은 약 음식 메뉴 30개 정도로, 각 메뉴당 200장의 사진들을 가지고 앞서서 한 semi supervised 기법으로 레이블을 달아주었다.
+처음에는 메뉴 갯수와 사진 수를 이것보다 적게 했더니, 엄청난 오버피팅을 목격해버렸다. 따라서 데이터셋 수를 좀 많이 늘려보았다.
+
+
+----------
+
+
+Fine tuning 을 해주며 epoch, batch size, learning rate 등의 hyper parameter를 조금씩 설정해 주었다.
+
+그 후에, 구글에서 직접 '윤세영식당'의 '아스파라거스 파스타'를 크롤링 해온 이미지들을 한번 우리의 분류기로 돌려보았다
+
+![enter image description here](http://i66.tinypic.com/2vboawp.png)![enter image description here](http://i63.tinypic.com/jj8tfk.png)
+
+우리가 설정한 '3번 레이블: 다른 메뉴와 함께'와 '5번 레이블: 가게 내부' 를 제밥 높은 확률로 분류해내는 것을 확인할 수 있었다. 나머지 분류는 Classifer 파일에서 확인할 수 있다.
