@@ -19,6 +19,5 @@ Fine tuning 을 해주며 epoch, batch size, learning rate 등의 hyper paramete
 
 그 후에, 구글에서 직접 '윤세영식당'의 '아스파라거스 파스타'를 크롤링 해온 이미지들을 한번 우리의 분류기로 돌려보았다
 
-![enter image description here](http://i66.tinypic.com/2vboawp.png)![enter image description here](http://i63.tinypic.com/jj8tfk.png)
 
 우리가 설정한 '3번 레이블: 다른 메뉴와 함께'와 '5번 레이블: 가게 내부' 를 제밥 높은 확률로 분류해내는 것을 확인할 수 있었다. 나머지 분류는 Classifer 파일에서 확인할 수 있다.
