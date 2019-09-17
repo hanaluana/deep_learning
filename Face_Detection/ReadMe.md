@@ -48,4 +48,3 @@ Brew install cmake, brew install boost, brew install boost-python ---with-python
 
 확실히 get_frontal_face 에 비해서는 훨씬 성능이 좋았따. 사람 얼굴이라면 왠만하면 거의 다 detect 해내는 결과를 보여주었다.
 
-![예시](http://i65.tinypic.com/2i700uv.png)
